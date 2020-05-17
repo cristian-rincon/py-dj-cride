@@ -1,0 +1,16 @@
+REPOSITORY                  TAG                 IMAGE ID            CREATED             SIZE
+cride_local_celerybeat      latest              fb26d033d1c6        27 minutes ago      527MB
+cride_local_celeryworker    latest              fb26d033d1c6        27 minutes ago      527MB
+cride_local_django          latest              fb26d033d1c6        27 minutes ago      527MB
+cride_local_flower          latest              fb26d033d1c6        27 minutes ago      527MB
+cride_production_postgres   latest              edda393231d0        About an hour ago   228MB
+private_pypi_local_django   latest              8b7250584fb5        12 days ago         747MB
+mywebsite_local_django      latest              34d243f82074        12 days ago         760MB
+python                      3.6-alpine          92a6cc6f3ecc        2 weeks ago         92.8MB
+python                      3.8-slim-buster     e7d894e42148        2 weeks ago         194MB
+postgres                    latest              0f10374e5170        3 weeks ago         314MB
+python                      2-alpine            8579e446340f        3 weeks ago         71.1MB
+postgres                    11.3                4e045cb8eecd        11 months ago       312MB
+postgres                    10.5                3fce051f5a48        19 months ago       228MB
+redis                       3.2                 87856cc39862        19 months ago       76MB
+mailhog/mailhog             v1.0.0              09b680955aed        3 years ago         19.3MB
