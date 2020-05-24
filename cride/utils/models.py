@@ -12,12 +12,12 @@ class CRideModel(models.Model):
     + created (Datetime): Store the datetime the object was created.
     + modified (Datetime): Store the last datetime the object was modified.
   """
-  created = models.DatetimeField(
+  created = models.DateTimeField(
     'created_at',
     auto_now_add=True,
     help_text='Date time on which the object was created'
   )
-  modified = models.DatetimeField(
+  modified = models.DateTimeField(
     'modified_at',
     auto_now=True,
     help_text='Date time on which the object was last modified'
