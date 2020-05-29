@@ -21,7 +21,9 @@ docker_build:
 docker_up:
 	docker-compose up
 
-
+docker_django:docker_ps
+	docker rm -f 	py-dj-cride_django_1
+	docker-compose run --rm --service-ports django
 
 
 ## Running images 
