@@ -38,6 +38,16 @@ docker_down:
 superuser:
 	docker-compose run --rm django python manage.py createsuperuser
 
+## Use shell plus
+shellplus:
+	docker-compose run --rm django python manage.py shell_plus
+
+
+clean:
+	sudo rm -rf **/__pycache__
+	sudo rm -rf **/**/__pycache__
+	sudo rm -rf **/**/**/__pycache__
+
 #################################################################################
 # Self Documenting Commands                                                     #
 #################################################################################
